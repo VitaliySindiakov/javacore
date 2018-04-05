@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 
 import java.util.Random;
 
-
 public class ArrayRandom_0_999 {
     public static void main(String[] args) {
 

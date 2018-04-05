@@ -5,11 +5,11 @@ package com.kitcenter.app.homework.lesson9;
  */
 public class Array1_99 {
     public static void main(String[] args) {
-        int number = 0;
+        int y = 0;
         for (int i = 1; i < 99; i++) {
-            if (i % 2 != 0) number++;
+            if (i % 2 != 0) y++;
         }
-        int[] arr = new int[number];
+        int[] arr = new int[y];
         for(int i=1,b=0;i<99;i++){
             if(i%2!=0){
                 arr[b]=i;
