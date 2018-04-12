@@ -1,5 +1,7 @@
 package com.kitcenter.runners.homework.lesson11;
 
+
+
 import com.kitcenter.app.homework.lesson11.Home2b;
 
 import java.util.Scanner;
@@ -8,7 +10,15 @@ import java.util.Scanner;
  * Created by Vitaliy on 10.04.2018.
  */
 public class HomeTaskRunner2b {
-    public static void main(String[] args) {
+
+    public String scan(){
+        Scanner sc = new Scanner(System.in);
+        String polindrom;
+        polindrom = sc.nextLine();
+        return polindrom;
+
+    }
+    public void home2() {
         Home2b h2b = new Home2b();
         String polindrom;
         System.out.println("Plz print text");
