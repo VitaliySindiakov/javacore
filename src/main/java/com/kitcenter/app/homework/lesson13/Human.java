@@ -6,8 +6,7 @@ public class Human {
     public Human(String name){
         this.age = age;
         this.name = name;
-
-    }
+            }
 
     public int getAge() {
         return age;
